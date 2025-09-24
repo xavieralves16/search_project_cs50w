@@ -1,0 +1,117 @@
+/* ======= Global styles ======= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Top right links */
+.top-right {
+  text-align: right;
+  padding: 20px;
+}
+
+.top-right a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 14px;
+}
+
+.top-right a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Main page ======= */
+.center {
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 64px;
+  color: #4285f4;
+  margin-bottom: 20px;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.search-bar {
+  width: 400px;
+  padding: 10px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 24px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid #dcdcdc;
+}
+
+/* Advanced search */
+.blue-btn {
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+}
+
+.blue-btn:hover {
+  background-color: #3367d6;
+}
+
+/* ======= Advanced search page ======= */
+.advanced-title {
+  text-align: left;
+  margin: 40px 0 20px 40px;
+  font-size: 20px;
+  color: #d93025;
+}
+
+.advanced-form {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.field label {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.field input[type="text"] {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+.buttons.left {
+  text-align: right;
+}
