@@ -1,4 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Link para voltar -->
+  <div class="top-right">
+    <a href="index.html">Google Search</a>
+  </div>
 
+  <h2 class="advanced-title">Advanced Search</h2>
+  <form action="https://www.google.com/search" class="advanced-form">
+    <div class="field">
+      <label>Find pages with… "all these words:"</label>
+      <input type="text" name="as_q">
+    </div>
+    <div class="field">
+      <label>Find pages with… "this exact word or phrase:"</label>
+      <input type="text" name="as_epq">
+    </div>
+    <div class="field">
+      <label>Find pages with… "any of these words:"</label>
+      <input type="text" name="as_oq">
+    </div>
+    <div class="field">
+      <label>Find pages with… "none of these words:"</label>
+      <input type="text" name="as_eq">
+    </div>
+
+    <div class="buttons left">
+      <input type="submit" value="Advanced Search" class="blue-btn">
+    </div>
+  </form>
+</body>
 </html>
