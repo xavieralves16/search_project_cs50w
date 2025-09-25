@@ -83,6 +83,7 @@ input[type="submit"].blue-btn:hover {
   margin: 40px 0 20px 40px;
   font-size: 20px;
   color: #d93025;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .advanced-subtitle{
@@ -90,6 +91,7 @@ input[type="submit"].blue-btn:hover {
     margin: 0 0 10px 40px;
     font-size: 16px;
     color: black;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .advanced-form {
@@ -110,6 +112,7 @@ input[type="submit"].blue-btn:hover {
   margin-right: 20px;
   font-size: 14px;
   text-align: right; /* matches Google style */
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .field input[type="text"] {
