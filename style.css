@@ -85,23 +85,31 @@ input[type="submit"].blue-btn:hover {
   color: #d93025;
 }
 
+.advanced-subtitle{
+    text-align: left;
+    margin: 0 0 10px 40px;
+    font-size: 16px;
+    color: black;
+}
+
 .advanced-form {
   max-width: 800px;
-  margin: auto;
+  margin: 0 40px; /* left-aligned with some padding */
   text-align: left;
 }
 
 .field {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* align items to the left */
   align-items: center;
   margin: 10px 0;
 }
 
 .field label {
-  flex: 1;
+  flex: 0 0 200px; /* fixed width for labels */
   margin-right: 20px;
   font-size: 14px;
+  text-align: right; /* matches Google style */
 }
 
 .field input[type="text"] {
@@ -179,4 +187,7 @@ input[type="submit"].blue-btn:hover {
   .advanced-title {
     color: #ff8a65;
   }
+  .advanced-subtitle{
+    color: white;
+    }
 }
