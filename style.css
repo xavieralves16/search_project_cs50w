@@ -68,14 +68,13 @@ input[type="submit"]:hover {
 }
 
 /* Advanced search */
-.blue-btn {
-  background-color: #4285f4;
-  color: white;
-  font-weight: bold;
+input[type="submit"].blue-btn {
+  background-color: #6293ff;
+  color: black;
 }
 
-.blue-btn:hover {
-  background-color: #3367d6;
+input[type="submit"].blue-btn:hover {
+  background-color: #8aafff;
 }
 
 /* ======= Advanced search page ======= */
