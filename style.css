@@ -115,10 +115,24 @@ input[type="submit"].blue-btn:hover {
   text-align: right;
 }
 
+
+/* Small Google logo */
+.google-logo-small {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 32px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #4285f4;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
 /* ======= Dark mode ======= */
 @media (prefers-color-scheme: dark) {
   body {
-    background: #181818;
+    background: #2c2c2c;
     color: #e0e0e0;
   }
 
